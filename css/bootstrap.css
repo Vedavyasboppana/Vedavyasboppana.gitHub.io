@@ -129,7 +129,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  -webkit-appearanc: button;
   cursor: pointer;
 }
 button[disabled],
@@ -159,7 +159,7 @@ input[type="search"] {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
-  -webkit-appearance: textfield;
+  -webkit-appearanc: textfield;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
@@ -2601,7 +2601,7 @@ textarea.form-control {
   height: auto;
 }
 input[type="search"] {
-  -webkit-appearance: none;
+   -webkit-overflow-scrolling: none;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,
@@ -5861,7 +5861,7 @@ button.list-group-item-danger.active:focus {
   opacity: .5;
 }
 button.close {
-  -webkit-appearance: none;
+  -webkit-overflow-scrolling: none;
   padding: 0;
   cursor: pointer;
   background: transparent;
